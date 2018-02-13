@@ -51,7 +51,7 @@ After=network-online.target
 [Service]
 Type=simple
 User=%i
-ExecStart=/srv/homeassistant/bin/hass -c "/home/homeassistant/.homeassistant"
+ExecStart=/srv/homeassistant/bin/homeassistant -c "/home/homeassistant/.homeassistant"
 
 [Install]
 WantedBy=multi-user.target
